@@ -9,7 +9,9 @@ class Test
     //String currentTime = "23:59:59";
         // String currentTime = "01:01:01";
         int timeInSeconds = convertTimeInSeconds(currentTime);
-        System.out.println("Time in Seconds :: "+timeInSeconds);
+        //System.out.println("Time in Seconds :: "+timeInSeconds);
+        System.out.println(Math.round(Double.parseDouble("2.49")));
+        System.out.println(Math.round(Double.parseDouble("2.51")));
     }
 
     private static int convertTimeInSeconds(String currentTime) {

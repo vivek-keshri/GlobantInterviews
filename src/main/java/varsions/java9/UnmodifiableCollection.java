@@ -6,7 +6,7 @@ public class UnmodifiableCollection {
 
 
     public static void main(String[] args) {
-        Map m = Map.of("vivek",0,null,1);
+        Map m = Map.of("vivek",0,"anil",1);
         m.put("aman",2);
         System.out.println(m);
     }

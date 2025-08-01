@@ -21,7 +21,7 @@ public class MaxAveragefromStudents2DArray {
                 .max(naturalOrder())
                 .get();
 
-        Long highestOccurences = Arrays.stream(scores)
+        Long highestOccurrences = Arrays.stream(scores)
                 .collect(groupingBy(s -> s[0],counting()))
                 .values()
                 .stream()
@@ -33,7 +33,7 @@ public class MaxAveragefromStudents2DArray {
               counting(), (sum, count) -> sum / count));
 
         System.out.println(Math.floor(highestAvg));
-        System.out.println(highestOccurences);
+        System.out.println(highestOccurrences);
         System.out.println(mean);
 
         List<Integer> number = Arrays.asList(2,3,4,5);
