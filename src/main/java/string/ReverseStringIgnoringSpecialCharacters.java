@@ -1,9 +1,12 @@
 package string;
 
 /*
-         WAP to reverse string considering only alphabets should be reversed
+ *       WAP to reverse string considering only alphabets should be reversed
  *       Input:   str = "a,b$c"
  *       Output:  str = "c,b$a"
+ *
+ *       Input:   str = "a,b$c^D"
+ *       Output:  str = "D,b$c^a"
  *
  */
 
