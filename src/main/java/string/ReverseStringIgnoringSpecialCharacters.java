@@ -6,7 +6,7 @@ package string;
  *       Output:  str = "c,b$a"
  *
  *       Input:   str = "a,b$c^D"
- *       Output:  str = "D,b$c^a"
+ *       Output:  str = "D,c$b^a"
  *
  */
 
@@ -16,7 +16,7 @@ import java.util.Stack;
 
 public class ReverseStringIgnoringSpecialCharacters {
     public static void main(String[] args) {
-        //ReverseStringIgnoringSpecialCharacters.reverse("a,b$c");
+        ReverseStringIgnoringSpecialCharacters.reverse("a,b$c");
         ReverseStringIgnoringSpecialCharacters.reverse("a,b$c^D");
 
 
